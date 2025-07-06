@@ -2,8 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 
 const StopWatchApp = () => {
     const [seconds, setSeconds] = useState(0);
-    const timerRef = useRef<number | null>(null);
-
+    const timerRef = useRef(null);
     const handleStart = () => {
         if (timerRef.current) return;
         timerRef.current = setInterval(() => {

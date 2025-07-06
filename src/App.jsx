@@ -9,6 +9,7 @@ import Hooks from "./components/topics/react-hooks/Hooks";
 import StopWatchApp from "./components/topics/react-hooks/StopWatchApp";
 import TypingTracker from "./components/topics/react-hooks/TypingTracker";
 import PrimeNumberChecker from "./components/topics/react-hooks/PrimeNumberChecker";
+import TasksMain from "./components/topics/react-hooks/Task Manager/TasksMain";
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
       {/* <StopWatchApp/> */}
       {/* <Hooks/> */}
       {/* <TypingTracker /> */}
-      <PrimeNumberChecker />
+      {/* <PrimeNumberChecker /> */}
+      <TasksMain />
     </div>
   );
 };
